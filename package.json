@@ -1,0 +1,20 @@
+{
+  "name": "cht-yp-crawler",
+  "version": "1.0.0",
+  "description": "Simple Crawler of www.iyp.com.tw",
+  "main": "index.js",
+  "scripts": {
+    "test": "GOOS=linux node --inspect-brk index.js"
+  },
+  "author": "ShenTengTu",
+  "license": "MIT",
+  "dependencies": {
+    "default-user-agent": "^1.0.0",
+    "exceljs": "^1.1.0",
+    "jsdom": "^11.6.2",
+    "node-go-require": "^1.1.0",
+    "request": "^2.85.0",
+    "request-promise-native": "^1.0.5",
+    "tesseract.js": "^1.0.10"
+  }
+}
